@@ -45,7 +45,7 @@ a {
 }
 .container {
     width: 1140px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 
@@ -211,7 +211,6 @@ p {
 	width:100%; 
 	border-bottom: 2px solid #857f79; 
 	border-style: dotted; 
-	display: inline-block; 
 	padding: 10px 0px;
 }
 #infograph_section_links ul li{

@@ -1,0 +1,259 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+	font-family: 
+}
+
+body {
+	line-height: 1;
+	font-family: 'Open Sans', sans-serif;
+}
+ol, ul {
+	list-style: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+a {
+    text-decoration: none;
+}
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+
+
+/*typography*/
+
+h1, h2, h3, h4, h5, h6 {
+  line-height: 1;
+  color: #000 !important;
+}
+
+h1 {
+  font-size: 3em;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.2em;
+  letter-spacing: .08px;
+  margin-bottom: 30px;
+  text-align: center;
+  font-weight: normal;
+  color: black;
+}
+
+p {
+  font-size: 12px;
+  line-height: 1.7em;
+}
+
+
+/*header*/
+
+.navbar{
+	min-height: 20px;
+}
+#logo_header_section{
+	background-color: #0374ac;
+	display: block;
+}
+#top_navigation{
+	background-color: #005e8a !important;
+	border: none;
+	border-radius: 0px;
+	font-size: 12px;
+	margin-bottom: 0px;
+}
+#top_navigation ul{
+	margin-right: 35px;
+}
+#top_navigation ul li {
+	display: block;
+	width: 126px;
+}
+#top_navigation ul li a{
+	color: #fff;
+	padding: 10px 0px;
+	text-shadow: 0 1px 2px rgba(0,0,0,.6);
+	text-align: center;
+	font-size: 13px;
+	font-weight: 700;
+}
+
+#top_navigation ul li a:hover{
+	background-color: #005278;
+}
+
+#top_navigation .glyphicon-lock {
+	padding-right: 5px;
+}
+
+#nav_dropdown_menu li a{
+	color: black !important;
+}
+
+#leftnav ul li{
+	width: auto;
+}
+#leftnav ul li a{
+	padding: 10px 15px;
+}
+
+
+.affix {
+	top: 0;
+	width: inherit;
+	z-index: 9999 !important;
+}
+ 
+
+/*carousel*/
+.carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {}
+#myCarousel{
+	padding: 0px !important;
+}
+#myCarousel a{
+	background-image: none; position: absolute;
+}
+#myCarousel img{
+	margin:auto; padding-left: 40px;
+}
+
+/*search_portal*/
+
+#search_portal_input{
+	background-color: transparent; 
+	border-radius: 10px; 
+	border: 2px solid #fff;
+}
+
+#search_portal_h2 h2{
+	text-shadow: 0 1px 2px rgba(0,0,0,.6); 
+	color:#fff !important; 
+	font-weight: 700; 
+	letter-spacing: .08px; 
+}
+
+#search_portal_button{
+	border: 1px solid #fff;
+	border-radius: 15px; 
+	padding: 5px 35px;
+	color: #2fa2d9;
+	font-weight: 700 !important;
+	box-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+/*main_content*/
+
+
+.section_heading h2{
+	margin: 5px;
+	font-weight: 500;
+	text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+
+.section_heading p{
+	font-size: 12px; 
+	font-weight: 500; 
+	text-align: center;
+}
+
+.section_content_format img{
+	margin: auto;
+	height: 105px;
+}
+
+.section_content_format h3{
+	text-align: center; 
+	margin-bottom: 5px; 
+	font-weight: 500;
+	font-size: 14px;
+}
+
+.section_content_format p{
+	font-size: 12px; 
+	text-align: center;
+
+}
+#infograph_section_heading{
+	width:100%; 
+	border-bottom: 2px solid #857f79; 
+	border-style: dotted; 
+	display: inline-block; 
+	padding: 10px 0px;
+}
+#infograph_section_links ul li{
+	padding-bottom: 10px;
+
+}
+#infograph_section_links ul li a{
+	font-size: 12px;
+	color: #333;
+	font-weight: 600;
+	text-decoration:none;
+	padding-bottom: 10px;
+}
+#infograph_section_links ul li a:hover{
+	color: #2d9ed4;
+}
+
+/*media carousel*/
+
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  height: 40px;
+  width : 40px;
+  margin-top: 40px
+}
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  height: 40px;
+  width : 40px;
+  margin-top: 40px
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 120px;
+}
+/* End carousel */
